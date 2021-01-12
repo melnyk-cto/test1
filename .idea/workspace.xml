@@ -1,0 +1,1580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fc872cd3-3cbd-4f13-a817-2c2b1455538c" name="Default Changelist" comment="Merge branch 'master' of github.com:Vaestro/waverly-digital-marketing-site&#10;&#10;# Conflicts:&#10;#&#9;src/js/components/pages/careers/jobitems/README.md">
+      <change afterPath="$PROJECT_DIR$/src/js/components/pages/careers/jobitems/account_manager/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/components/pages/careers/jobitems/content_creator/content.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/components/pages/careers/jobitems/content_creator/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/components/pages/careers/jobitems/content_creator/sections/contents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/components/pages/careers/jobitems/content_creator/sections/header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/components/pages/careers/jobitems/frontend_developer/content.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/components/pages/careers/jobitems/frontend_developer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/components/pages/careers/jobitems/frontend_developer/sections/contents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/components/pages/careers/jobitems/frontend_developer/sections/header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/components/pages/careers/jobitems/graphic_design/content.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/components/pages/careers/jobitems/graphic_design/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/components/pages/careers/jobitems/graphic_design/sections/contents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/components/pages/careers/jobitems/graphic_design/sections/header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/components/pages/careers/jobitems/ux_designer/content.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/components/pages/careers/jobitems/ux_designer/sections/contents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/components/pages/careers/jobitems/ux_designer/sections/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/pages/careers/jobitems/content.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/pages/careers/jobitems/account_manager/content.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/pages/careers/jobitems/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/pages/careers/jobitems/ux_designer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/pages/careers/jobitems/sections/contents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/pages/careers/jobitems/account_manager/sections/contents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/pages/careers/jobitems/sections/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/pages/careers/jobitems/account_manager/sections/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/pages/careers/sections/career_data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/pages/careers/sections/career_data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/config/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/config/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/pages/home/sections/sections.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/home/sections/sections.scss" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-92553865">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="3" />
+          <entry key="html" value="1" />
+          <entry key="js" value="6" />
+          <entry key="json" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="3" />
+          <entry key="HTML" value="1" />
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="223" />
+          <entry key="json" value="9" />
+          <entry key="scss" value="27" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JSON" value="9" />
+          <entry key="JavaScript" value="223" />
+          <entry key="SCSS" value="27" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="ESLintLanguageService" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1340981554">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="ESLintLanguageService" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="12" />
+          <entry key="html" value="2" />
+          <entry key="jpg" value="16" />
+          <entry key="js" value="96" />
+          <entry key="json" value="1" />
+          <entry key="png" value="5" />
+          <entry key="scss" value="63" />
+          <entry key="svg" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="12" />
+          <entry key="HTML" value="2" />
+          <entry key="Image" value="21" />
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="96" />
+          <entry key="SCSS" value="63" />
+          <entry key="SVG" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="4" />
+          <entry key="html" value="18" />
+          <entry key="js" value="7978" />
+          <entry key="scss" value="1335" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="4" />
+          <entry key="HTML" value="18" />
+          <entry key="JavaScript" value="7978" />
+          <entry key="SCSS" value="1335" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1143338885">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="ESLintLanguageService" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="js" value="36" />
+          <entry key="png" value="2" />
+          <entry key="rnc" value="1" />
+          <entry key="scss" value="13" />
+          <entry key="ts" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="2" />
+          <entry key="JavaScript" value="36" />
+          <entry key="RNG Compact" value="1" />
+          <entry key="SCSS" value="13" />
+          <entry key="TypeScript" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="1457" />
+          <entry key="scss" value="661" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JavaScript" value="1457" />
+          <entry key="SCSS" value="661" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-224459482">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="40" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.1" value="9" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.17" value="2" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="6" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.24" value="3" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.50" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="47" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="ESLintLanguageService" value="33" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="12" />
+          <entry key="html" value="3" />
+          <entry key="jpg" value="7" />
+          <entry key="js" value="255" />
+          <entry key="json" value="10" />
+          <entry key="map" value="1" />
+          <entry key="md" value="7" />
+          <entry key="png" value="3" />
+          <entry key="rnc" value="1" />
+          <entry key="scss" value="133" />
+          <entry key="svg" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="12" />
+          <entry key="HTML" value="3" />
+          <entry key="Image" value="10" />
+          <entry key="JSON" value="10" />
+          <entry key="JavaScript" value="255" />
+          <entry key="Markdown" value="6" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="RNG Compact" value="1" />
+          <entry key="SCSS" value="133" />
+          <entry key="SVG" value="1" />
+          <entry key="SourceMap" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="114" />
+          <entry key="html" value="10" />
+          <entry key="js" value="6305" />
+          <entry key="json" value="27" />
+          <entry key="md" value="146" />
+          <entry key="scss" value="3201" />
+          <entry key="svg" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="114" />
+          <entry key="HTML" value="10" />
+          <entry key="JSON" value="27" />
+          <entry key="JavaScript" value="6305" />
+          <entry key="Markdown" value="101" />
+          <entry key="PLAIN_TEXT" value="45" />
+          <entry key="SCSS" value="3201" />
+          <entry key="SVG" value="8" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="333123597">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="1" />
+          <entry key="gif" value="1" />
+          <entry key="html" value="1" />
+          <entry key="ico" value="3" />
+          <entry key="jpg" value="8" />
+          <entry key="js" value="14" />
+          <entry key="json" value="1" />
+          <entry key="png" value="8" />
+          <entry key="scss" value="7" />
+          <entry key="svg" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="1" />
+          <entry key="Image" value="20" />
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="14" />
+          <entry key="SCSS" value="7" />
+          <entry key="SVG" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="18" />
+          <entry key="html" value="13" />
+          <entry key="js" value="875" />
+          <entry key="json" value="17" />
+          <entry key="scss" value="280" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="18" />
+          <entry key="HTML" value="13" />
+          <entry key="JSON" value="17" />
+          <entry key="JavaScript" value="875" />
+          <entry key="SCSS" value="280" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/components/pages/careers/sections/career_data.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="11" column="80" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/config/routes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/components/pages/careers/jobitems/account_manager/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/components/pages/careers/jobitems/account_manager/sections/contents.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-48">
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/components/pages/careers/jobitems/account_manager/sections/header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/components/pages/careers/jobitems/content_creator/sections/header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="12" column="57" lean-forward="true" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/components/pages/careers/jobitems/frontend_developer/sections/header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/components/pages/careers/jobitems/graphic_design/sections/contents.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/js/components/pages/careers/jobitems/graphic_design/sections/header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="11" column="68" lean-forward="true" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/components/pages/careers/jobitems/graphic_design/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="21" column="38" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>font-size:52.6px!important;</find>
+      <find>.home-hero-hellow</find>
+      <find>.home-section-header-parent</find>
+      <find>waver</find>
+      <find>home-hero-hello</find>
+      <find>home-hero-de</find>
+      <find>.home-hero_logos1</find>
+      <find>home-hero-des_text</find>
+      <find>style=</find>
+      <find>d-md-</find>
+      <find>bootstra</find>
+      <find>.article-header__lead</find>
+      <find>.article__text</find>
+      <find>text-</find>
+      <find>text-body</find>
+      <find>bootstrap</find>
+      <find>left_job_divide</find>
+      <find>jobs-container</find>
+      <find>flexbox-fix</find>
+      <find>article-header__lead</find>
+      <find>article-header</find>
+      <find>.article .hero__title</find>
+      <find>article__text</find>
+      <find>font-size: 3vw;</find>
+      <find>line-height: 1.05;</find>
+      <find>.home-hero-des_text</find>
+      <find>font-weight: 700;</find>
+      <find>huge</find>
+      <find>.home-section-header-parent .home-hero-hello</find>
+      <find>.home-hero-hello</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Waverly</replace>
+      <replace>100vh</replace>
+      <replace>Warvely</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\Task_Project\waverly-digital-marketing-site\src\scss\pages\contact</dir>
+      <dir>D:\Task_Project\waverly-digital-marketing-site</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/js/components/pages/work/sections/header-copy.js" />
+        <option value="$PROJECT_DIR$/src/scss/pages/career/index.css" />
+        <option value="$PROJECT_DIR$/src/js/components/pages/careers/sections/header.js" />
+        <option value="$PROJECT_DIR$/src/js/components/pages/careers/sections/leftsection.js" />
+        <option value="$PROJECT_DIR$/src/js/components/pages/contact/sections/header-copy.js" />
+        <option value="$PROJECT_DIR$/src/scss/common/navmenu.scss" />
+        <option value="$PROJECT_DIR$/public/image/logo.svg" />
+        <option value="$PROJECT_DIR$/src/js/components/pages/home/sections/Section_first.js" />
+        <option value="$PROJECT_DIR$/src/js/components/pages/home/sections/Section_third.js" />
+        <option value="$PROJECT_DIR$/src/js/components/pages/home/sections/Section_six.js" />
+        <option value="$PROJECT_DIR$/src/scss/common/fullpage.scss" />
+        <option value="$PROJECT_DIR$/src/scss/common/footer.scss" />
+        <option value="$PROJECT_DIR$/node_modules/fullpage.js/dist/fullpage.css" />
+        <option value="$PROJECT_DIR$/src/js/components/pages/home/sections/Section_6.js" />
+        <option value="$PROJECT_DIR$/src/js/components/pages/home/sections/Section_5.js" />
+        <option value="$PROJECT_DIR$/src/js/components/pages/home/sections/Section_4.js" />
+        <option value="$PROJECT_DIR$/src/js/components/pages/home/sections/Section_3.js" />
+        <option value="$PROJECT_DIR$/src/js/components/pages/home/sections/Section_2.js" />
+        <option value="$PROJECT_DIR$/src/js/components/pages/home/sections/Section_1.js" />
+        <option value="$PROJECT_DIR$/src/js/components/pages/home/sections/index.css" />
+        <option value="$PROJECT_DIR$/src/js/components/pages/home/sections/FullPage.js" />
+        <option value="$PROJECT_DIR$/src/js/components/pages/careers/sections/sections.js" />
+        <option value="$PROJECT_DIR$/src/scss/pages/home/sections/section2.scss" />
+        <option value="$PROJECT_DIR$/src/js/components/pages/contact/sections/videosection.js" />
+        <option value="$PROJECT_DIR$/src/js/components/common/navmenu.js" />
+        <option value="$PROJECT_DIR$/src/scss/pages/home/sections/fullpage.scss" />
+        <option value="$PROJECT_DIR$/src/js/components/pages/contact/index.js" />
+        <option value="$PROJECT_DIR$/src/scss/pages/contact/section_ifram.scss" />
+        <option value="$PROJECT_DIR$/src/js/components/pages/careers/index.js" />
+        <option value="$PROJECT_DIR$/src/js/components/pages/index.js" />
+        <option value="$PROJECT_DIR$/src/scss/pages/home/sections/section3.scss" />
+        <option value="$PROJECT_DIR$/src/js/components/common/footer.js" />
+        <option value="$PROJECT_DIR$/src/scss/pages/home/index.scss" />
+        <option value="$PROJECT_DIR$/src/js/App.js" />
+        <option value="$PROJECT_DIR$/src/scss/pages/home/sections/section4.scss" />
+        <option value="$PROJECT_DIR$/src/js/components/pages/home/sections/animation.js" />
+        <option value="$PROJECT_DIR$/src/js/components/pages/home/sections/FullPageEngin.js" />
+        <option value="$PROJECT_DIR$/src/js/components/pages/home/index.js" />
+        <option value="$PROJECT_DIR$/src/js/components/common/gtag.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/js/components/pages/home/sections/Section_home.js" />
+        <option value="$PROJECT_DIR$/src/scss/pages/career/index.scss" />
+        <option value="$PROJECT_DIR$/src/scss/index.scss" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/js/components/pages/careers/jobitems/index.js" />
+        <option value="$PROJECT_DIR$/src/js/components/pages/careers/jobitems/sections/header.js" />
+        <option value="$PROJECT_DIR$/src/js/components/pages/articles/index.js" />
+        <option value="$PROJECT_DIR$/src/js/components/pages/articles/sections/header.js" />
+        <option value="$PROJECT_DIR$/src/js/components/pages/articles/sections/contents.js" />
+        <option value="$PROJECT_DIR$/src/scss/pages/other.scss" />
+        <option value="$PROJECT_DIR$/src/scss/pages/home/sections/section5.scss" />
+        <option value="$PROJECT_DIR$/src/scss/pages/home/sections/section1.scss" />
+        <option value="$PROJECT_DIR$/src/README.md" />
+        <option value="$PROJECT_DIR$/src/js/components/pages/careers/jobitems/README.md" />
+        <option value="$PROJECT_DIR$/src/js/components/pages/careers/jobitems/sections/contents.js" />
+        <option value="$PROJECT_DIR$/src/js/components/pages/careers/sections/rightsection.js" />
+        <option value="$PROJECT_DIR$/src/index.css" />
+        <option value="$PROJECT_DIR$/src/scss/pages/home/sections/sections.scss" />
+        <option value="$PROJECT_DIR$/src/js/components/pages/careers/sections/career_data.js" />
+        <option value="$PROJECT_DIR$/src/js/components/pages/careers/jobitems/ux_designer/index.js" />
+        <option value="$PROJECT_DIR$/src/js/components/pages/careers/jobitems/account_manager/index.js" />
+        <option value="$PROJECT_DIR$/src/js/components/pages/careers/jobitems/content_creator/index.js" />
+        <option value="$PROJECT_DIR$/src/js/components/pages/careers/jobitems/frontend_developer/index.js" />
+        <option value="$PROJECT_DIR$/src/js/components/pages/careers/jobitems/graphic_design/index.js" />
+        <option value="$PROJECT_DIR$/src/js/config/routes.js" />
+        <option value="$PROJECT_DIR$/src/js/components/pages/careers/jobitems/account_manager/sections/header.js" />
+        <option value="$PROJECT_DIR$/src/js/components/pages/careers/jobitems/content_creator/sections/header.js" />
+        <option value="$PROJECT_DIR$/src/js/components/pages/careers/jobitems/frontend_developer/sections/header.js" />
+        <option value="$PROJECT_DIR$/src/js/components/pages/careers/jobitems/graphic_design/sections/header.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="839" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="waverly-digital-marketing-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="waverly-digital-marketing-site" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="waverly-digital-marketing-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="waverly-digital-marketing-site" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="waverly-digital-marketing-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="waverly-digital-marketing-site" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="waverly-digital-marketing-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="waverly-digital-marketing-site" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="waverly-digital-marketing-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="waverly-digital-marketing-site" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="waverly-digital-marketing-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="waverly-digital-marketing-site" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="articles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="waverly-digital-marketing-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="waverly-digital-marketing-site" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="articles" type="462c0819:PsiDirectoryNode" />
+              <item name="sections" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="waverly-digital-marketing-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="waverly-digital-marketing-site" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="careers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="waverly-digital-marketing-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="waverly-digital-marketing-site" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="careers" type="462c0819:PsiDirectoryNode" />
+              <item name="jobitems" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="waverly-digital-marketing-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="waverly-digital-marketing-site" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="careers" type="462c0819:PsiDirectoryNode" />
+              <item name="jobitems" type="462c0819:PsiDirectoryNode" />
+              <item name="account_manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="waverly-digital-marketing-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="waverly-digital-marketing-site" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="careers" type="462c0819:PsiDirectoryNode" />
+              <item name="jobitems" type="462c0819:PsiDirectoryNode" />
+              <item name="account_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="sections" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="waverly-digital-marketing-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="waverly-digital-marketing-site" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="careers" type="462c0819:PsiDirectoryNode" />
+              <item name="jobitems" type="462c0819:PsiDirectoryNode" />
+              <item name="graphic_design" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="waverly-digital-marketing-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="waverly-digital-marketing-site" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="careers" type="462c0819:PsiDirectoryNode" />
+              <item name="jobitems" type="462c0819:PsiDirectoryNode" />
+              <item name="graphic_design" type="462c0819:PsiDirectoryNode" />
+              <item name="sections" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="waverly-digital-marketing-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="waverly-digital-marketing-site" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="careers" type="462c0819:PsiDirectoryNode" />
+              <item name="sections" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="waverly-digital-marketing-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="waverly-digital-marketing-site" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="waverly-digital-marketing-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="waverly-digital-marketing-site" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="waverly-digital-marketing-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="waverly-digital-marketing-site" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="waverly-digital-marketing-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="waverly-digital-marketing-site" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="waverly-digital-marketing-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="waverly-digital-marketing-site" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="sections" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="{&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="D:\Task_Project\waverly-digital-marketing-site\node_modules\eslint" />
+    <property name="node.js.selected.package.standard" value="D:\Task_Project\waverly-digital-marketing-site\node_modules\eslint" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Task_Project\waverly-digital-marketing-site\src\js\components\pages\careers\jobitems\graphic_design" />
+      <recent name="D:\Task_Project\waverly-digital-marketing-site\src\js\components\pages\careers\jobitems\frontend_developer" />
+      <recent name="D:\Task_Project\waverly-digital-marketing-site\src\js\components\pages\careers\jobitems\content_creator" />
+      <recent name="D:\Task_Project\waverly-digital-marketing-site\src\js\components\pages\careers\jobitems\account_manager" />
+      <recent name="D:\Task_Project\waverly-digital-marketing-site\src\js\components\pages\careers\jobitems" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Task_Project\waverly-digital-marketing-site\src\js\components\pages\careers\jobitems\ux_designer" />
+      <recent name="E:\waverly-digital-marketing-site\public" />
+      <recent name="E:\waverly-digital-marketing-site\public\image" />
+      <recent name="D:\hugeinc\waverly-digital-marketing-site\src\js" />
+      <recent name="D:\hugeinc\waverly-digital-marketing-site\src\js\components\pages\home\sections" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.Run-ALL">
+    <configuration name="Run-ALL" type="js.build_tools.npm" factoryName="npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="app" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="build-css" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build-css" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start (1)" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.Run-ALL" />
+      <item itemvalue="npm.start" />
+      <item itemvalue="npm.build-css" />
+      <item itemvalue="npm.start (1)" />
+      <item itemvalue="npm.build" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.start (1)" />
+        <item itemvalue="npm.build-css" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc872cd3-3cbd-4f13-a817-2c2b1455538c" name="Default Changelist" comment="" />
+      <created>1555835539614</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555835539614</updated>
+      <workItem from="1555835541804" duration="4774000" />
+      <workItem from="1555863180365" duration="457000" />
+      <workItem from="1555863812570" duration="1413000" />
+      <workItem from="1555868430130" duration="469000" />
+      <workItem from="1555871248771" duration="12903000" />
+      <workItem from="1555911215268" duration="28894000" />
+      <workItem from="1555947780365" duration="14746000" />
+      <workItem from="1555996814616" duration="5286000" />
+      <workItem from="1556002913383" duration="50976000" />
+      <workItem from="1556130952690" duration="15604000" />
+      <workItem from="1556170873561" duration="18447000" />
+      <workItem from="1556313152495" duration="27000" />
+      <workItem from="1556313258646" duration="746000" />
+      <workItem from="1556386649720" duration="7946000" />
+      <workItem from="1556398802293" duration="6169000" />
+      <workItem from="1556434226256" duration="3933000" />
+      <workItem from="1556438521600" duration="5638000" />
+      <workItem from="1556464329846" duration="697000" />
+      <workItem from="1556635593994" duration="13161000" />
+      <workItem from="1556730000656" duration="10426000" />
+      <workItem from="1556798370391" duration="56000" />
+      <workItem from="1556821522123" duration="1725000" />
+      <workItem from="1556823757367" duration="9691000" />
+      <workItem from="1556891592052" duration="12374000" />
+      <workItem from="1556911839214" duration="7679000" />
+      <workItem from="1556959436104" duration="3054000" />
+      <workItem from="1556967485081" duration="23423000" />
+      <workItem from="1557042458885" duration="11207000" />
+      <workItem from="1557058822149" duration="21103000" />
+      <workItem from="1557091405096" duration="3269000" />
+      <workItem from="1557124887694" duration="2397000" />
+      <workItem from="1557130856731" duration="3978000" />
+      <workItem from="1557152952739" duration="17270000" />
+      <workItem from="1557176951819" duration="8784000" />
+      <workItem from="1557212094249" duration="4106000" />
+      <workItem from="1557242110533" duration="7749000" />
+      <workItem from="1557262123992" duration="9907000" />
+      <workItem from="1557298618708" duration="89000" />
+      <workItem from="1557309255706" duration="588000" />
+      <workItem from="1557309899507" duration="5720000" />
+      <workItem from="1557332487633" duration="199000" />
+      <workItem from="1557398245272" duration="1599000" />
+      <workItem from="1557434384876" duration="1495000" />
+      <workItem from="1557513700459" duration="6206000" />
+      <workItem from="1557555743442" duration="604000" />
+      <workItem from="1557666901593" duration="5625000" />
+      <workItem from="1557673991610" duration="638000" />
+      <workItem from="1557675181380" duration="3269000" />
+      <workItem from="1557678784089" duration="923000" />
+      <workItem from="1557680937442" duration="3134000" />
+      <workItem from="1557734843484" duration="9412000" />
+      <workItem from="1557786808138" duration="597000" />
+      <workItem from="1558424381247" duration="8956000" />
+      <workItem from="1558433492668" duration="11327000" />
+      <workItem from="1558468398401" duration="645000" />
+      <workItem from="1558469081486" duration="824000" />
+      <workItem from="1558560859149" duration="28000" />
+      <workItem from="1558565830930" duration="1201000" />
+      <workItem from="1558727329274" duration="2691000" />
+    </task>
+    <task id="LOCAL-00001" summary="Merge branch 'master' of github.com:Vaestro/waverly-digital-marketing-site&#10;&#10;# Conflicts:&#10;#&#9;src/js/config/routes.js">
+      <created>1556313458591</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1556313458591</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Merge branch 'master' of github.com:Vaestro/waverly-digital-marketing-site&#10;&#10;# Conflicts:&#10;#&#9;src/js/config/routes.js">
+      <created>1556389971440</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1556389971440</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Merge branch 'master' of github.com:Vaestro/waverly-digital-marketing-site&#10;&#10;# Conflicts:&#10;#&#9;src/js/config/routes.js">
+      <created>1556789667028</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1556789667028</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="417105000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49856734" visible="true" weight="0.20495258" />
+      <window_info id="Structure" order="1" sideWeight="0.50143266" side_tool="true" weight="0.20495258" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32924107" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49920678" weight="0.24295011" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.328125" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.37852496" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007932" side_tool="true" weight="0.32924107" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4997356" visible="true" weight="0.20824295" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32924107" />
+      <window_info anchor="bottom" id="CSS-X-Fire" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49856734" visible="true" weight="0.20495258" />
+      <window_info id="Structure" order="1" sideWeight="0.50143266" side_tool="true" weight="0.20495258" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32924107" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49920678" visible="true" weight="0.24295011" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.328125" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.37852496" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007932" side_tool="true" weight="0.32924107" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4997356" weight="0.20824295" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32924107" />
+      <window_info anchor="bottom" id="CSS-X-Fire" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="E:" />
+    </ignored-roots>
+    <MESSAGE value="Merge branch 'master' of github.com:Vaestro/waverly-digital-marketing-site&#10;&#10;# Conflicts:&#10;#&#9;src/js/config/routes.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of github.com:Vaestro/waverly-digital-marketing-site&#10;&#10;# Conflicts:&#10;#&#9;src/js/config/routes.js" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/home/sections/Section_5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="53" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/home/sections/FullPage.js" />
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/home/sections/index.css" />
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/contact/sections/videosection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/common/customStyle.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/common/fullpage.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/home/sections/Section_2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="53" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/home/sections/Section_3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="53" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/pages/home/sections/fullpage.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/pages/work/main.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/pages/contact/video_section.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/pages/contact/section_ifram.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/contact/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/pages/home/sections/section3.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/actions/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/constants/action-types.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/reducers/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/store/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/structural.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="165" column="16" selection-start-line="165" selection-start-column="16" selection-end-line="165" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1566">
+          <caret line="60" column="40" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/work/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/common/navmenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/common/footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/home/sections/Section_4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="53" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/home/sections/animation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1584">
+          <caret line="67" column="6" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/pages/home/sections/section4.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/home/sections/FullPageEngin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/home/sections/Section_1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/home/sections/Section_6.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/home/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="51" column="232" selection-start-line="51" selection-start-column="208" selection-end-line="51" selection-end-column="232" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/work/sections/videosection.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/home/sections/Section_home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="35" column="52" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/common/gtag.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/work/sections/workbottom.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/pages/career/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/static/css/main.419df3a8.chunk.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret column="131931" selection-start-column="131931" selection-end-column="131931" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/articles/sections/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/articles/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/careers/jobitems/README.md" />
+    <entry file="file://$PROJECT_DIR$/src/README.md" />
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/articles/sections/contents.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/articles/content.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/pages/home/sections/section1.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/careers/sections/rightsection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/pages/home/sections/section5.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="54" column="3" selection-start-line="54" selection-start-column="3" selection-end-line="54" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/pages/home/sections/sections.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124272">
+          <caret line="5178" column="18" selection-start-line="5178" selection-start-column="18" selection-end-line="5178" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22056">
+          <caret line="919" column="42" selection-start-line="919" selection-start-column="42" selection-end-line="919" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/pages/home/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5112">
+          <caret line="213" selection-start-line="213" selection-end-line="213" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/careers/sections/leftsection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="54" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/careers/sections/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="5" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/pages/other.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/careers/sections/sections.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/careers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/careers/jobitems/ux_designer/content.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/careers/jobitems/ux_designer/sections/contents.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/careers/jobitems/ux_designer/sections/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="72" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/careers/jobitems/ux_designer/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/careers/jobitems/content_creator/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/careers/jobitems/frontend_developer/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/careers/jobitems/graphic_design/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/careers/jobitems/account_manager/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/careers/jobitems/account_manager/sections/contents.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/careers/jobitems/account_manager/sections/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/careers/jobitems/content_creator/sections/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="57" lean-forward="true" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/careers/jobitems/frontend_developer/sections/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/careers/jobitems/graphic_design/sections/contents.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/config/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/careers/sections/career_data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="80" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/pages/careers/jobitems/graphic_design/sections/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="68" lean-forward="true" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

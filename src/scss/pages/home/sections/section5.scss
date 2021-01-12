@@ -1,0 +1,62 @@
+.home-section-background-fifth_lg {
+  background-image: url("https://s3.amazonaws.com/waverly-marketing-site/content-creation-background.png");
+}
+.home-section-background-fifth_sm {
+  background-image: url("https://s3.amazonaws.com/waverly-marketing-site/content-creation-background.png");
+
+}
+.home-section-back-six-img1 {
+  background-image: url("https://s3.amazonaws.com/waverly-marketing-site/public-relations-background.png");
+
+ }
+.home-section-back-six-img2 {
+  background-color: white;
+}
+.home_section_fifth_image {
+  background-image: url("https://s3.amazonaws.com/waverly-marketing-site/tech-section-image.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+@supports (-webkit-overflow-scrolling: touch) {
+  @media only screen
+  and (min-device-width : 414px)
+  and (max-device-width : 736px)
+  and (orientation : portrait) {
+    .mobile_safari_ourservice{
+      bottom: 11vh!important;
+    }
+   }
+
+  @media only screen
+  and (min-device-width : 375px)
+  and (max-device-width : 667px)
+  and (orientation : portrait) {
+  .mobile_safari_ourservice{bottom: 12vh!important;} }
+  @media only screen
+  and (min-device-width : 375px)
+  and (max-device-width : 812px)
+  and (-webkit-device-pixel-ratio : 3)
+  and (orientation : portrait) {
+    .mobile_safari_ourservice{
+      bottom: 15vh !important;
+    }
+  }
+}
+  @media (min-width: 768px) {
+    .home-section-header-parent {
+      align-items: flex-start;
+      display: flex;
+      height: 100%;
+      padding-left: 9vw;
+      .home-hero-hello {
+        font-size: 2.8vw;
+      }
+  }
+    @media (max-width: 768px) {
+      .home-hero-hello {
+        font-size: 40px;
+      }
+    }
+}
+

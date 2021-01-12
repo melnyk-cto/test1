@@ -1,0 +1,103 @@
+.home-hero {
+  font-size: 190px;
+  font-weight: 900;
+  letter-spacing: -5px;
+  justify-content: center;
+}
+
+.home-hero-des_text {
+  padding-top: 7vh;
+}
+.home-hero-des_text1 {
+  padding-top: 7vh;
+}
+@media (max-width: 768px) {
+  .home-hero-des_text1 {
+    padding-left: 3.3vh;
+  }
+
+  .home-hero-des_text {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .home-hero-des_text {
+    font-size: 1.7vw;
+    font-weight: 400;
+    font-family: Lora,serif;
+    margin:0;
+    width:100%;
+    hr {
+      padding:0;
+      margin:0;
+      border:0;
+    }
+
+  }
+  .home-hero-des_text1 {
+    display: none;
+  }
+}
+
+.home-hero-title-text {
+  margin-bottom: 30px;
+}
+
+.Main_home_page_section_title {
+  color: black;
+}
+
+.Main_home_page_section_title_des {
+  color: black;
+}
+
+@media only screen and (min-width: 768px) {
+  .home-hero_logos1 {
+    text-align: left;
+    margin-left: -1.4vw;
+    justify-content: left;
+    display: flex;
+    padding-top: 7vh;
+  }
+  .home-hero_logo_active {
+    object-fit: contain;
+    height: 4vw;
+    width: 8.3vw;
+    padding-right: 1.4vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .home-hero_logos1 {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 7vh;
+  }
+  .home-hero_logo_active {
+    padding-right: 2vh;
+    object-fit: contain;
+    width: 9vh;
+    height: 9vh;
+  }
+  .Main_home_page_section_title_des {
+    font-size: 19px;
+  }
+}
+
+.home_section_first_image {
+  background-image: url("https://s3.amazonaws.com/waverly-marketing-site/instagram-growth-background.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media only screen and (max-width: 767px) {
+  .home_section_first_image {
+    background-size: cover;
+    width: 90%;
+  }
+  .home-section-details__subtitle {
+    font-size: 1rem !important;
+  }
+}

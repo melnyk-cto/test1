@@ -1,0 +1,299 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section {
+  display: block
+}
+
+body {
+  line-height: 1
+}
+
+ol,
+ul {
+  list-style: none
+}
+
+blockquote,
+q {
+  quotes: none
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+* {
+  box-sizing: border-box
+}
+
+button {
+  border-radius: 0
+}
+
+.wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  min-height: 100%;
+  height: 100%
+}
+
+.wrapper--inner {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  height: 100%
+}
+
+.flexbox-fix {
+  display: -ms-flexbox;
+  display: flex
+}
+
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none
+}
+
+html,
+body {
+  background: #F4F4F4;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%
+}
+
+[data-ui-role="content"] {
+  height: 100%
+}
+@media only screen and (min-width: 768px) {
+  .global-nav-background .framebox {
+    background: transparent;
+    border-top: 0px solid #F4F4F4;
+    border-left: 0px solid #F4F4F4;
+    border-right: 0px solid #F4F4F4;
+    border-bottom: 0px solid #F4F4F4;
+    height: 100vh;
+    left: 0px;
+    pointer-events: none;
+    position: fixed;
+    top: 0px;
+    transition: border 250ms ease;
+    width: 100%;
+    z-index: 101
+  }
+}
+@media only screen and (min-width: 768px) {
+  .h-logo--opened~.framebox {
+    border-left: 50px solid #F4F4F4;
+    border-right: 50px solid #F4F4F4
+  }
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility
+}
+body {
+  line-height: 1
+}
+
+.h-logo--wink {
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  display: none;
+  height: 148px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform-origin: 0 0;
+  transform: scale(0.405);
+  width: 148px;
+  z-index: 1;
+  background-image:url("//images.ctfassets.net/fiz3jwws2um7/57mQrUMgmAQcEiu4mYKECA/46ed674eaf0bb26f396e4eccb64fa691/hwink_sequence.png?h=148");
+}
+
+.fadeImagechoose_first {
+
+
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  left: 0;
+  opacity: 1;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  background-image:url("/image/sections/home_first.jpg");
+}
+.fadeImagechoose_second {
+
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  left: 0;
+  opacity: 1;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  background-image:url("/image/sections/home_section3_img1.jpg");
+}
+.fadeImagechoose_third {
+
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  left: 0;
+  opacity: 1;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  background-image:url("/image/sections/home_section_4_img1.png");
+}
+.fadeImagechoose_fourth {
+
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  left: 0;
+  opacity: 1;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  background-image:url("/image/sections/home_first.jpg");
+}
+@media only screen and (min-width: 768px) {
+  .custom_footer {
+    top: 79vh;
+    position: fixed !important;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .custom_footer {
+    top: 75vh;
+    position: fixed !important;
+    width: 100%;
+  }
+}
+.section_full_screen{
+  height: 100vh;
+}

@@ -1,0 +1,54 @@
+.articles-header-img {
+  padding-left:14vw;
+  display: block;
+  p {
+    color:white;
+    vertical-align: baseline;
+  }
+  .articles-header-img-title {
+    margin-top: -8vh;
+    font-weight: 700;
+  }
+  .hero__title {
+    font-weight: 700;
+    padding-top: 34vh;
+  }
+}
+.article-content-text-list {
+  padding-left:40%;
+}
+.article__text {
+  padding-left: 34.48468%;
+}
+.job-list-parent-div {
+  .left_job_divide {
+    border:1px black solid;
+    margin-top:25px;
+    margin-bottom: 10px;
+  }
+  .left_job {
+    text-align: left;
+    font-weight: 600;
+  }
+  .right_job {
+  }
+}
+.articles-header-top {
+  display: flex;
+}
+.articles-header-top-divide {
+  width: 150px;
+  margin-left: 15px;
+  margin-right:15px;
+  margin-top: -7vh;
+  border-top: 1px white solid;
+}
+@media (max-width: 768px) {
+  .hero__title {
+    font-weight: 700;
+    padding-top: 22vh !important;
+  }
+  .article__text {
+    padding-left:0 !important;
+  }
+}

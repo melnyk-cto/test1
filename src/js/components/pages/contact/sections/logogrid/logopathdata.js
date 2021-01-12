@@ -1,0 +1,18 @@
+export const logodata = [
+    "/image/work/logo/Waverly-logosAMEX.png",
+    "/image/work/logo/CHRYSLER.png",
+    "/image/work/logo/Waverly_work_clientsArtboard-12.png",
+    "/image/work/logo/ESTEE1.png",
+    "//images.ctfassets.net/fiz3jwws2um7/4JIW0cmwyAC6sOGoo2yoO4/ff2c1c8b5a5c37949a536590b38d9ae2/Four_Seasons.png?w=200",
+    "/image/work/logo/Eli_Lilly.png",
+    "/image/work/logo/Waverly_work_clientsArtboard-24.png",
+    "/image/work/logo/LVMH.png",
+    "/image/work/logo/Mcdonalds.png",
+    "/image/work/logo/Nestle.png",
+    "/image/work/logo/TD_Bank.png",
+    "/image/work/logo/Reuters.png",
+    "/image/work/logo/Time_Warner.png",
+    "/image/work/logo/Waverly_work_clientsArtboard-9.png",
+    "/image/work/logo/Waverly-logosUPS.png",
+    "/image/work/logo/Waverly_work_clientsArtboard-1.png",
+]
