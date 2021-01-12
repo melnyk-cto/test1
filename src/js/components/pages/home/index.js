@@ -41,11 +41,11 @@ class Home extends React.Component {
                         <ReactPageScroller ref={c => this._pageScroller = c} pageOnChange={this.pageOnChange}>
                             <Section_home/>
                             <Section_1/>
+                            <Section_6/>
                             <Section_2/>
                             <Section_3/>
                             <Section_4/>
                             <Section_5/>
-                            <Section_6/>
                             <Footer/>
                         </ReactPageScroller>
                         <div

@@ -24,59 +24,59 @@ class Fadeanimation extends React.Component {
                     </div>
                 </div>
                 <div className= {this.props.s_active===2 ? "home-section--active home-section" : "home-section"}>
-                    <div className="home-section-background hide-sm home-section-background-section3-1">
-                        <div aria-hidden="false" className="home-section-background__index home-section-background__index_section3_1" >
-                            02&nbsp;.<span className="home-section-background__line_light" ></span>
-                        </div>
-                    </div>
-                    <div className="home-section-background hide-md-up home-section-background-section3-2">
-                        <div aria-hidden="false" className="home-section-background__index home-section-background__index_section3_2">
-                            02&nbsp;.<span className="home-section-background__line_light"></span>
-                        </div>
-                    </div>
-                </div>
-                <div className= {this.props.s_active===3 ? "home-section--active home-section" : "home-section"}>
-                    <div className="home-section-background home-section-background-fifth_lg  hide-sm">
-                        <div aria-hidden="false" className="home-section-background__index ">
-                            03.<span className="home-section-background__line"/>
-                        </div>
-                    </div>
-                    <div className="home-section-background home-section-background-fifth_sm hide-md-up">
-                        <div aria-hidden="false" className="home-section-background__index ">
-                            03.<span className="home-section-background__line"/>
-                        </div>
-                    </div>
-                </div>
-                <div className= {this.props.s_active===4 ? "home-section--active home-section" : "home-section"}>
-                    <div className="home-section-background hide-sm home-section-back-fourth-img1">
-                        <div aria-hidden="false" className="home-section-background__index section3_a_tag">04
-                            &nbsp;.<span className="home-section-background__line_light"/>
-                        </div>
-                    </div>
-                    <div className="home-section-background hide-md-up home-section-back-fourth-img1_md">
-                        <div aria-hidden="false" className="home-section-background__index section3_a_tag">04
-                            &nbsp;.<span className="home-section-background__line_light"/></div>
-                    </div>
-                </div>
-                <div className= {this.props.s_active===5 ? "home-section--active home-section" : "home-section"}>
-                    <div className="home-section-background home-section-back-six-img1 hide-sm">
-                        <div aria-hidden="false" className="home-section-background__index">05.
-                            <span className="home-section-background__line"/>
-                        </div>
-                    </div>
-                    <div className="home-section-background home-section-back-six-img1 hide-md-up">
-                        <div aria-hidden="false" className="home-section-background__index">05.
-                            <span className="home-section-background__line"/>
-                        </div>
-                    </div>
-                </div>
-                <div className= {this.props.s_active===6 ? "home-section--active home-section" : "home-section"}>
                     <div className="home-section-background home-section-back-six-img2 hide-sm">
-                        <div aria-hidden="false" className="home-section-background__index">06.
+                        <div aria-hidden="false" className="home-section-background__index">02.
                             <span className="home-section-background__line"/>
                         </div>
                     </div>
                     <div className="home-section-background home-section-back-six-img2 hide-md-up">
+                        <div aria-hidden="false" className="home-section-background__index">02.
+                            <span className="home-section-background__line"/>
+                        </div>
+                    </div>
+                </div>
+                <div className= {this.props.s_active===3 ? "home-section--active home-section" : "home-section"}>
+                    <div className="home-section-background hide-sm home-section-background-section3-1">
+                        <div aria-hidden="false" className="home-section-background__index home-section-background__index_section3_1" >
+                            03&nbsp;.<span className="home-section-background__line_light" ></span>
+                        </div>
+                    </div>
+                    <div className="home-section-background hide-md-up home-section-background-section3-2">
+                        <div aria-hidden="false" className="home-section-background__index home-section-background__index_section3_2">
+                            03&nbsp;.<span className="home-section-background__line_light"></span>
+                        </div>
+                    </div>
+                </div>
+                <div className= {this.props.s_active===4 ? "home-section--active home-section" : "home-section"}>
+                    <div className="home-section-background home-section-background-fifth_lg  hide-sm">
+                        <div aria-hidden="false" className="home-section-background__index ">
+                            04.<span className="home-section-background__line"/>
+                        </div>
+                    </div>
+                    <div className="home-section-background home-section-background-fifth_sm hide-md-up">
+                        <div aria-hidden="false" className="home-section-background__index ">
+                            04.<span className="home-section-background__line"/>
+                        </div>
+                    </div>
+                </div>
+                <div className= {this.props.s_active===5 ? "home-section--active home-section" : "home-section"}>
+                    <div className="home-section-background hide-sm home-section-back-fourth-img1">
+                        <div aria-hidden="false" className="home-section-background__index section3_a_tag">05
+                            &nbsp;.<span className="home-section-background__line_light"/>
+                        </div>
+                    </div>
+                    <div className="home-section-background hide-md-up home-section-back-fourth-img1_md">
+                        <div aria-hidden="false" className="home-section-background__index section3_a_tag">05
+                            &nbsp;.<span className="home-section-background__line_light"/></div>
+                    </div>
+                </div>
+                <div className= {this.props.s_active===6 ? "home-section--active home-section" : "home-section"}>
+                    <div className="home-section-background home-section-back-six-img1 hide-sm">
+                        <div aria-hidden="false" className="home-section-background__index">06.
+                            <span className="home-section-background__line"/>
+                        </div>
+                    </div>
+                    <div className="home-section-background home-section-back-six-img1 hide-md-up">
                         <div aria-hidden="false" className="home-section-background__index">06.
                             <span className="home-section-background__line"/>
                         </div>
